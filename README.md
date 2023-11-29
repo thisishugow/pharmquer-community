@@ -99,10 +99,10 @@ You can customized the setting by ENV
   <tr>
     <td style="padding-right:5px;border: none;">
       <a href="https://www.colosscious.com" target="_blank">
-        <img style="height:26px;" src="assets/img/colosscious-logo_mid.png" />
+        <img style="height:27px;" src="assets/img/colosscious-logo_mid.png" />
       </a>
     </td>
-    <td style="padding-right:5px;border: none;">
+    <td style="padding-right:5px;padding-top:8px;border: none;">
       <a href="https://linkedin.com/company/colosscious" target="_blank">
         <img style="height:23px;width:84px;" src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Logo.svg.original.svg"/>
       </a>
@@ -114,3 +114,8 @@ You can customized the setting by ENV
     </td>
   </tr>
 </table>
+
+**Practice Contact**  
+bd.info@colosscious.com 
+
+<u>Copyright Ⓒ 2023 Colosscious Co., Ltd. All Rights Reserved.</u>
