@@ -95,7 +95,10 @@ You can customized the setting by ENV
 - [Minikube](https://minikube.sigs.k8s.io)
 
 ---
-<div>
+<div style="text-align:left;">
+<a style="padding-right:5px;" href="https://www.colosscious.com" target="_blank">
+<img style="height:23px;" src="assets/img/colosscious-logo_mid.png" />
+</a>
 <a style="padding-right:5px;" href="https://linkedin.com/company/colosscious" target="_blank">
 <img style="height:23px;width:84px " src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Logo.svg.original.svg"/>
 </a>
