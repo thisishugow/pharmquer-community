@@ -95,14 +95,22 @@ You can customized the setting by ENV
 - [Minikube](https://minikube.sigs.k8s.io)
 
 ---
-<div style="text-align:left;">
-<a style="padding-right:5px;" href="https://www.colosscious.com" target="_blank">
-<img style="height:23px;" src="assets/img/colosscious-logo_mid.png" />
-</a>
-<a style="padding-right:5px;" href="https://linkedin.com/company/colosscious" target="_blank">
-<img style="height:23px;width:84px " src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Logo.svg.original.svg"/>
-</a>
-<a style="padding-right:5px;" href="https://www.youtube.com/@ColossciousCoLtd" target="_blank">
-<img style="height:23px;" src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" />
-</a>
-</div>
+<table style="text-align:left;">
+  <tr>
+    <td style="padding-right:5px;">
+      <a href="https://www.colosscious.com" target="_blank">
+        <img style="height:26px;" src="assets/img/colosscious-logo_mid.png" />
+      </a>
+    </td>
+    <td style="padding-right:5px;">
+      <a href="https://linkedin.com/company/colosscious" target="_blank">
+        <img style="height:23px;width:84px;" src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Logo.svg.original.svg"/>
+      </a>
+    </td>
+    <td style="padding-right:5px;">
+      <a href="https://www.youtube.com/@ColossciousCoLtd" target="_blank">
+        <img style="height:20px;" src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" />
+      </a>
+    </td>
+  </tr>
+</table>
