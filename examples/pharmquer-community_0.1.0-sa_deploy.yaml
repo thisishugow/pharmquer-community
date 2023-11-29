@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pharmquer-community-deployment
+spec:
+  replicas: 1 # 設定所需的 pod 副本數
+  selector:
+    matchLabels:
+      app: pharmquer-community
+  template:
+    metadata:
+      labels:
+        app: pharmquer-community
+    spec:
+      containers:
+      - name: pharmquer-community
+        image: pharmquer-community:0.1.0-sa
+        ports:
+        - containerPort: 1234
+        - containerPort: 5432

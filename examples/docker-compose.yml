@@ -1,0 +1,7 @@
+version: '3'
+services:
+  pharmquer-community:
+    image: pharmquer-community:0.1.0-sa
+    ports:
+      - "31234:1234"
+      - "35432:5432"

@@ -1,0 +1,4 @@
+#! /bin/bash
+IMAGE='pharmquer-community'
+TAG='0.1.0-sa'
+podman save -o "$IMAGE"_"$TAG".tar $IMAGE:$TAG
