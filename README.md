@@ -99,7 +99,13 @@ You can customized the setting by ENV
 - [Minikube](https://minikube.sigs.k8s.io)
 
 ---
+**More Info**
 <table style="text-align:left;border-collapse: collapse; background-color: transparent;">
+<tr>
+    <th style="padding-right:5px; border: none;">Official Web</th>
+    <th style="padding-right:5px; padding-top:8px; border: none;">LinkedIn</th>
+    <th style="padding-right:5px; border: none;">Youtube</th>
+  </tr>
   <tr>
     <td style="padding-right:5px;border: none;">
       <a href="https://www.colosscious.com" target="_blank">
