@@ -19,13 +19,22 @@ To facilitate efficient ETL (Extract, Transform, Load) processes, **Colosscious*
 
 ### Download image ad load it. 
 ```shell
-# Load image
-podman load -i pharmquer-community_0.1.0-sa.tar 
+# pull from docker.io
+podman pull thisisyuwang/pharmquer-community:latest
+## by Docker
+docker pull thisisyuwang/pharmquer-community:latest
+
+# or import from on-premise
+podman load -i pharmquer-community:latest
+## by Docker
+docker load -i pharmquer-community:latest
 ```
 
 ### Start container
 ```shell
 # Use command 
+podman run -p 31234:1234 35432:5432 pharmquer-community:0.1.0-sa
+## by Docker
 docker run -p 31234:1234 35432:5432 pharmquer-community:0.1.0-sa
 
 # Use docker-compose.yml (See in example/docker-compose.yml))
@@ -71,20 +80,15 @@ You can customized the setting by ENV
 ## Download
 
 1. Docker image
-   - pharmquer-community_v0.1.0-sa.tar - [download](www.colosscious.com)
+   - pharmquer-community_v0.1.0-sa.tar - [download](https://drive.google.com/file/d/1xQYaEt1lA1TcxuIDMq3hWMyvXMHLaXs4/view?usp=sharing)
 
 
 ## Powered By
 - [FastAPI](https://fastapi.tiangolo.com/)
-
 - [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)  
-
 - [Antv X6](https://github.com/antvis/X6)  
-
 - [Vue-Grid-Layout](https://jbaysolutions.github.io/vue-grid-layout/)
-
 - [Vue-Data-Board](https://github.com/dongsuo/vue-data-board)  
-
 - [Apache Echarts](https://echarts.apache.org/zh/index.html)
   
 ## Useful Links
