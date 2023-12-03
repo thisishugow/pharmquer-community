@@ -33,9 +33,9 @@ docker load -i pharmquer-community:0.1.1-sa
 ### Start container
 ```shell
 # Use command 
-podman run -p 31234:1234 35432:5432 pharmquer-community:0.1.1-sa
+podman run -p 31234:1234 35432:5432 pharmquer-community
 ## by Docker
-docker run -p 31234:1234 35432:5432 pharmquer-community:0.1.1-sa
+docker run -p 31234:1234 35432:5432 pharmquer-community
 
 # Use docker-compose.yml (See in example/docker-compose.yml))
 docker-compose -f docker-compose.yml up 
