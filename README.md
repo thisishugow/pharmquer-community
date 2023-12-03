@@ -25,9 +25,9 @@ podman pull thisisyuwang/pharmquer-community:latest
 docker pull thisisyuwang/pharmquer-community:latest
 
 # or import from on-premise
-podman load -i pharmquer-community:latest
+podman load -i pharmquer-community:0.1.1-sa
 ## by Docker
-docker load -i pharmquer-community:latest
+docker load -i pharmquer-community:0.1.1-sa
 ```
 
 ### Start container
@@ -100,7 +100,7 @@ You can customized the setting by ENV
 
 ---
 **More Info**
-<table style="text-align:left;border-collapse: collapse; background-color: transparent;">
+<table style="text-align:left;border-collapse: collapse; background-color: transparent;font-size:12px;">
 <tr>
     <th style="padding-right:5px; border: none;">Official Web</th>
     <th style="padding-right:5px; padding-top:8px; border: none;">LinkedIn</th>
