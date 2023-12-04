@@ -17,7 +17,7 @@ To facilitate efficient ETL (Extract, Transform, Load) processes, **Colosscious*
 ## Quickstart
 **Pharmquer** is packaged as a Docker image, bundling the main application along with a PostgreSQL database. We recommend deploying it on Kubernetes (K8S), AWS, GCP, or Azure for optimal performance. If you prefer on-premise deployment, ensure that Docker or Podman is properly set up beforehand.
 
-### Download image ad load it. 
+### Download image and load it. 
 ```shell
 # pull from docker.io
 podman pull thisisyuwang/pharmquer-community:latest
