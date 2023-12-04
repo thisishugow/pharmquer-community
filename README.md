@@ -91,12 +91,6 @@ You can customized the setting by ENV
 - `DATA_DB_SCHEMA`: The schema for the data database. Default value is `pharmquer`.  
 
 
-## Download
-
-1. Docker image
-   - pharmquer-community_v0.1.0-sa.tar - [download](https://drive.google.com/file/d/1xQYaEt1lA1TcxuIDMq3hWMyvXMHLaXs4/view?usp=sharing)
-
-
 ## Powered By
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)  
