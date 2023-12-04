@@ -59,6 +59,20 @@ For deploying in a production environment, robust database management and persis
 - **Cloud Environments (AWS, GCP, Azure):** Utilize the native storage solutions provided by your cloud provider. This ensures reliability and scalability for your data storage needs.
 
 - **On-Premise Environment (Kubernetes Cluster or Docker):** In on-premise setups, create a permanent volume within your Kubernetes cluster or Docker environment. This guarantees data persistence and facilitates efficient access.
+  
+## Mounting Volume for Data Pipeline
+When using Pharmquer, documents uploaded by default are preserved within the container. To facilitate access to the document lake by ETL containers, it is essential to establish a persistent and shareable volume. Given that both **lichens** and **Pharmquer** operate on files using the same path set in the system table, it is imperative to mount the persistent volume to a fixed path in each container.  
+### Example 
+```shell 
+# Create a volume
+podman volume create mydatalake;
+
+# Mount the volume to containers
+ETL_FILE_PATH=/etl/data
+podman run -p 31234:1234 35432:5432 -v mydatalake:$ETL_FILE_PATH -v mypostgrespv:/var/lib/postgresql/data pharmquer-community;  
+podman run -v mydatalake:$ETL_FILE_PATH my-lichens-app;  
+```
+In the example above, a volume named `mydatalake` is created. This volume is then mounted to the Pharmquer container using the specified ETL file path. Adjustments can be made to suit your specific configuration and requirements.
 
 ## Parameters
 You can customized the setting by ENV   
