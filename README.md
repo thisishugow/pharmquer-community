@@ -13,9 +13,10 @@ Tailored for enterprise applications, particularly in the fields of bio and phar
 To facilitate efficient ETL (Extract, Transform, Load) processes, **Colosscious** introduces the ETL framework **[lichens](https://github.com/thisishugow/lichens)**. This framework empowers users to swiftly construct data pipelines for tasks such as uploading, validation, and maintaining ALCOA+ standards. For a visual understanding of Pharmquer's Data Pipeline, refer to the [Youtube video](https://youtu.be/5I82Ajo9d8s?feature=shared).
 
 
-
 ## Quickstart
-**Pharmquer** is packaged as a Docker image, bundling the main application along with a PostgreSQL database. We recommend deploying it on Kubernetes (K8S), AWS, GCP, or Azure for optimal performance. If you prefer on-premise deployment, ensure that Docker or Podman is properly set up beforehand.
+**Pharmquer** is packaged as a Docker image, bundling the main application along with a PostgreSQL database. We recommend deploying it on Kubernetes (K8S), AWS, GCP, or Azure for optimal performance. If you prefer on-premise deployment, ensure that Docker or Podman is properly set up beforehand.   
+[Watch Installation Guide on Youtube](https://youtu.be/Ft-ClukPSHg?feature=shared)
+
 
 ### Download image and load it. 
 ```shell
