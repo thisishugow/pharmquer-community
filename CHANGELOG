@@ -1,0 +1,56 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+
+
+## [Unreleased]
+
+### Added
+
+
+### Changed
+
+
+
+## [0.1.6-sa-rc.2] - 2024-05-16
+
+### Added
+
+- Added banner display upon successful server initialization.
+
+### Fixed
+
+- Resolved performance issues on some linux/amd64 architectures.
+- Improve UI for small monitors. 
+  
+### Changed
+
+- Added suffix `-arm64` to arm64 images branch.
+
+## [0.1.6-sa-rc.1] - 2024-05-05
+
+### Added
+
+- Introduced Electric Lab Notebook (ELN).
+- Included Lab Calendar.
+
+### Fixed
+
+- Corrected issue where small monitors could not display all rows with large data.
+- Updated report status after signing.
+
+### Changed
+
+- Implemented pagination for project/task/job panels.
+
+## [0.1.5-sa] - 2023-12-28
+
+### Added
+
+- Added auto-refresh feature to the dashboard.
+
+### Changed
+
+- Renamed add-column module to SQLEditor.

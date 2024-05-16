@@ -26,9 +26,9 @@ podman pull thisisyuwang/pharmquer-community:latest
 docker pull thisisyuwang/pharmquer-community:latest
 
 # or import from on-premise
-podman load -i pharmquer-community:0.1.6-sa-rc.1
+podman load -i pharmquer-community:0.1.6-sa-rc.2
 ## by Docker
-docker load -i pharmquer-community:0.1.6-sa-rc.1
+docker load -i pharmquer-community:0.1.6-sa-rc.2
 ```
 
 ### Start container
